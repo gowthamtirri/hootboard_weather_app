@@ -1,0 +1,54 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputBox {
+  padding: 20px 0;
+  width: 80%;
+  margin: auto;
+}
+.inputBox input {
+  width: 100%;
+  padding: 6px;
+  border: 0.5px solid #d7d7d7;
+  outline: none;
+}
+input::placeholder {
+  color: #c7c7c7;
+  text-align: center;
+}
+.line {
+  flex: 1;
+  height: 0.5px;
+  background: #d7d7d7;
+}
+.divider {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #c7c7c7;
+}
+.divider p {
+  margin: 0 8px;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  width: 80%;
+}
+button {
+  width: 100%;
+  background: #43aefc;
+  color: white;
+  padding: 8px 0;
+  border-radius: 5px;
+  border: none;
+}

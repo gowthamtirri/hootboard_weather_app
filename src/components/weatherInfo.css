@@ -1,0 +1,43 @@
+.weatherInfo {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.weatherInfo a {
+  text-decoration: none;
+  color: #43aefc;
+}
+.weatherInfo .title {
+  border-bottom: 0.5;
+}
+.weatherInfo .card {
+  min-width: 300px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card-content p {
+  margin: 5px 0;
+}
+.weatherInfo .info {
+  border-top: 0.5px solid #dad9d9;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-top: 20px;
+}
+.info .feelsLike,
+.info .humidity {
+  padding: 0 10px;
+  flex: 1;
+  text-align: center;
+}
+.info .feelsLike {
+  border-right: 0.5px solid #dad9d9;
+}
